@@ -9021,7 +9021,7 @@ GameObject:
   - component: {fileID: 292411428}
   - component: {fileID: 292411427}
   m_Layer: 0
-  m_Name: Terrain*
+  m_Name: Terrain* (Hide)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48138,7 +48138,7 @@ Terrain:
   m_GameObject: {fileID: 1546432375}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 0}
+  m_TerrainData: {fileID: 15600000, guid: 464470b717ff74a20a4316ee14486ff5, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -48179,7 +48179,7 @@ Transform:
   m_GameObject: {fileID: 1546432375}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -514, y: -28.5, z: -508.56}
+  m_LocalPosition: {x: -497.3, y: -28.5, z: -508.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
