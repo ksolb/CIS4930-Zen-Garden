@@ -260,6 +260,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6455304969266650484, guid: b7d873a1ec278b9448b81d80554e10ac, type: 3}
   m_PrefabInstance: {fileID: 6165275}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7363736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d046e3917e4d8580903c69758b6558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: sc.terrain.painter.runtime::sc.terrain.proceduralpainter.Height
+  enabled: 1
+  label: Height
+  blendMode: 0
+  opacity: 100
+  passIndex: 0
+  min: -1
+  minFalloff: 1
+  max: 9.2
+  maxFalloff: 1
 --- !u!1 &8576649
 GameObject:
   m_ObjectHideFlags: 0
@@ -7697,6 +7718,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 492030, guid: da76261af08665847a0e8746d6026926, type: 3}
   m_PrefabInstance: {fileID: 514873075}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &282607251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d046e3917e4d8580903c69758b6558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: sc.terrain.painter.runtime::sc.terrain.proceduralpainter.Height
+  enabled: 1
+  label: Height
+  blendMode: 0
+  opacity: 100
+  passIndex: 0
+  min: 12
+  minFalloff: 1
+  max: 13
+  maxFalloff: 1
 --- !u!1001 &283085384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9996,6 +10038,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3171154537923913093, guid: a379fd3487a26444dbdc8de46d7bd572, type: 3}
   m_PrefabInstance: {fileID: 529702249}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &370812264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d046e3917e4d8580903c69758b6558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: sc.terrain.painter.runtime::sc.terrain.proceduralpainter.Height
+  enabled: 1
+  label: Height
+  blendMode: 0
+  opacity: 100
+  passIndex: 0
+  min: 27
+  minFalloff: 1
+  max: 2000
+  maxFalloff: 1
 --- !u!1001 &371423827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15826,15 +15889,31 @@ MonoBehaviour:
   colorMapResolution: 512
   layerSettings:
   - enabled: 1
-    layer: {fileID: 8574412962073106934, guid: 0cb80391d22817b42a6231c64293ae96, type: 2}
+    layer: {fileID: 8574412962073106934, guid: c52ad77efecd38146bfb167ad0f38daf, type: 2}
     modifierStack:
-    - {fileID: 840393186}
+    - {fileID: 370812264}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 69debc15b685aef4aa7bb2783ddd8a2b, type: 2}
+    modifierStack:
+    - {fileID: 1924182513}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 32dc116de43ded84a8befc20d798b99e, type: 2}
+    modifierStack:
+    - {fileID: 282607251}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 7876ad99348dec23a811c4af45fc881e, type: 2}
+    modifierStack:
+    - {fileID: 1491894579}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 9a73362259799e748b5f32ee4d5b9f54, type: 2}
+    modifierStack:
+    - {fileID: 7363736}
   - enabled: 1
     layer: {fileID: 8574412962073106934, guid: 0c0a7f4c8b5b84ee982c40854bddc828, type: 2}
     modifierStack:
     - {fileID: 1985279918}
   - enabled: 1
-    layer: {fileID: 8574412962073106934, guid: 32dc116de43ded84a8befc20d798b99e, type: 2}
+    layer: {fileID: 8574412962073106934, guid: 0cb80391d22817b42a6231c64293ae96, type: 2}
     modifierStack: []
   autoRepaint: 0
   terrainListeners: []
@@ -24470,27 +24549,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2107663906932624721, guid: 4ad67aa7f76dbf54999adee18caa9059, type: 3}
   m_PrefabInstance: {fileID: 839500505}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &840393186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1d046e3917e4d8580903c69758b6558, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: sc.terrain.painter.runtime::sc.terrain.proceduralpainter.Height
-  enabled: 1
-  label: Height
-  blendMode: 0
-  opacity: 100
-  passIndex: 0
-  min: 12
-  minFalloff: 1
-  max: 2000
-  maxFalloff: 1
 --- !u!1001 &840467104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43439,6 +43497,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 450362, guid: 754109ac3fefa4b468c8ff86569e0517, type: 3}
   m_PrefabInstance: {fileID: 1491193104}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1491894579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d046e3917e4d8580903c69758b6558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: sc.terrain.painter.runtime::sc.terrain.proceduralpainter.Height
+  enabled: 1
+  label: Height
+  blendMode: 0
+  opacity: 100
+  passIndex: 0
+  min: 10.8
+  minFalloff: 1
+  max: 12
+  maxFalloff: 1
 --- !u!1001 &1494903755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55449,6 +55528,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b416b0fa77ed1840a9f280019e863ed, type: 3}
+--- !u!114 &1924182513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d046e3917e4d8580903c69758b6558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: sc.terrain.painter.runtime::sc.terrain.proceduralpainter.Height
+  enabled: 1
+  label: Height
+  blendMode: 0
+  opacity: 100
+  passIndex: 0
+  min: 13
+  minFalloff: 1
+  max: 200
+  maxFalloff: 1
 --- !u!1 &1924368968
 GameObject:
   m_ObjectHideFlags: 0
@@ -57563,9 +57663,9 @@ MonoBehaviour:
   blendMode: 0
   opacity: 100
   passIndex: 0
-  min: 9
+  min: 0
   minFalloff: 0.08
-  max: 100
+  max: 20
   maxFalloff: 1
 --- !u!1001 &1985837938
 PrefabInstance:
@@ -58874,7 +58974,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 724f7b980cbe9f94e81c634e5ae02a4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -33.464672
+      value: -33.46
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 724f7b980cbe9f94e81c634e5ae02a4a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -58882,7 +58982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 724f7b980cbe9f94e81c634e5ae02a4a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -28.743029
+      value: -28.36
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 724f7b980cbe9f94e81c634e5ae02a4a, type: 3}
       propertyPath: m_LocalRotation.w
